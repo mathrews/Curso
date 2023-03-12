@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,400;0,700;1,400 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Roboto+Slab:wght@400;700 & display = swap');
+:root{
+    --text-primary-color: #33ff00;
+    --header-primary-color: #0D6E2A;
+    --light-border-color: #E3E3E3;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--header-primary-color);
+    font-family: 'Roboto Slab', serif;
+}
+.row-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.around-flex{
+    justify-content: space-around;
+}
+.center-flex{
+    justify-content: center;
+}
+.text-primary{
+    color: var(--text-primary-color);
+}
+.panel{
+    background-color: #fdfdfd;
+    margin-top: 30px;
+    width: 350px;
+    padding: 20px;
+    border: solid 2px var(--light-border-color);
+    border-radius: 20px;
+}
+.panel div{
+    margin-bottom: 15px;
+}
+.icon-5x{
+    font-size: 1.5em;
+}
+.body{
+    text-align: center;
+}
+.handing{
+        text-align: center;
+}
+.one{
+      text-align: center;
+      color: cyan;
+}
+.sub-handing{
+          text-align: center;
+          color: darkblue;
+}
+.two{
+      text-align: center;
+      color: var(--text-primary-color);
+}
